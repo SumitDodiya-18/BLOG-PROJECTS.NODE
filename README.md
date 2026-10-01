@@ -4,10 +4,6 @@ DevBlog is a simple developer blog project built using Node.js, Express.js and E
 
 The project includes a basic login system using cookies, a home page with blog cards, logout functionality and responsive CSS styling.
 
-
-## Video Expansion 
-
-
 ## Features
 
 - Simple Login System
