@@ -1,37 +1,47 @@
-# Blog Project
+# DevBlog
 
-A simple blog application built with Node.js and Express.js.
+DevBlog is a simple developer blog project built using Node.js, Express.js and EJS.
+
+The project includes a basic login system using cookies, a home page with blog cards, logout functionality and responsive CSS styling.
+
 
 ## Video Expansion 
-https://drive.google.com/file/d/1Nm03sSjAs1EtA-HlSPEj0UdlO2JwxY5Z/view?usp=drivesdk
+
 
 ## Features
 
-- User authentication
-- Login and logout
-- Protected routes
-- Cookie-based authentication
-- EJS templating
-- Static files and assets
-- Form handling
-- Express.js routing
+- Simple Login System
+- Case-insensitive Username Login
+- Cookie-based Authentication
+- Logout Functionality
+- Developer Blog Home Page
+- Blog Cards with Hover Effects
+- Responsive Design
+- EJS Template Engine
+- Express.js Backend
 
-## Tech Stack
+## Technologies Used
 
+- HTML
+- CSS
+- JavaScript
 - Node.js
 - Express.js
 - EJS
 - Cookie Parser
-- HTML
-- CSS
-- JavaScript
 
 ## Project Structure
 
 ```text
-blog-project/
-├── public/
-├── views/
+DevBlog
+│
+├── public
+│   └── style.css
+│
+├── views
+│   ├── index.ejs
+│   └── login.ejs
+│
 ├── app.js
 ├── package.json
 └── README.md
